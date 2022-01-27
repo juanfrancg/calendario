@@ -1,0 +1,133 @@
+@charset "UTF-8";
+body{
+	background-color: lightskyblue;
+	font-family: sans-serif;
+}
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+.enero{
+	background-color: white;
+  	border: black 1px solid;
+  	padding: 10px 30px;
+  	margin: 10px;
+  	width: 50%;
+}
+.enero2{
+	border-collapse: collapse;
+ 	border: none;
+  	text-align: center;	
+}
+.enero3{
+	font-style: oblique;
+  	font-weight: bold;
+  	letter-spacing: 5px;
+}
+section.enero td {
+  width: 45px;
+  border-left: none;
+  border-right: none;
+}
+section.enero th {
+  width: 45px;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
+.enero4{
+	border-bottom: black 0.5px solid;
+}
+
+.febrero{
+	background-color: white;
+  	border: black 1px solid;
+  	padding: 10px 30px;
+  	margin: 10px;
+  	width: 50%;
+}
+
+.febrero2{
+  border: none;
+  border-collapse: collapse;
+  text-align: right;
+}
+.febrero3{
+  font-weight: bold;
+  text-align: right;
+}
+section.febrero th {
+  border-top: none;
+  border-bottom: none;
+  padding-right: 5px;
+}
+section.febrero td {
+  border-top: none;
+  border-bottom: none;
+  font-size: 150%;
+  padding-right: 5px;
+  width: 1.5em;
+}
+.febrero4{
+	border-left: black 0.5px solid;
+}
+.marzo{
+	background-color: white;
+  	border: black 1px solid;
+  	padding: 10px 30px;
+  	margin: 10px;
+  	width: 50%;
+  	border: black 1px solid;
+}
+.marzo2{
+  border: black 1px solid;
+  border-collapse: collapse;
+  text-align: left;
+}
+.marzo3{
+  font-variant: small-caps;
+  letter-spacing: 10px;
+  margin-bottom: 5px;
+  text-align: left;
+}
+section.marzo th {
+  text-align: center;
+  border: black 1px solid;
+}
+section.marzo td {
+  width: 50px;
+  height: 50px;
+  padding-left: 5px;
+  font-size: 70%;
+  vertical-align: top;
+  border: black 1px solid;
+}
+.marzo4{
+	border-left: black 2px solid;
+}
+.marzo5{
+	border-bottom: black 2px solid;
+}
+.marzo6{
+	border-left: black 2px solid;
+	border-bottom: black 2px solid;
+}
+.marzo7{
+	border: black 1px solid;
+}
+.final{
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	border-top: 0.2em solid black;
+	background-color: white;
+	padding-bottom: 1em;
+	width: 100%;
+	height: 2em;
+	text-align: center;
+}
+.autor{
+	position:relative;
+	display: inline-block;
+	font-size: smaller;
+}
